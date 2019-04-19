@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import * as RB from 'react-bootstrap';
 
-const patternUrl = 'http://www.colourlovers.com/api/patterns/random?format=json';
+const patternUrl = '//www.colourlovers.com/api/patterns/random?format=json';
 class RPattern extends Component {
   constructor() {
     super();
