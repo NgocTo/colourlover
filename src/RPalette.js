@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Color from './Color';
 import * as RB from 'react-bootstrap';
 
-const paletteUrl = 'http://ngocto.com/api/randomizePalette.php';
+const paletteUrl = 'http://www.colourlovers.com/api/palettes/random?format=json';
 class RPalette extends Component {
   constructor() {
     super();
