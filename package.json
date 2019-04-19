@@ -20,7 +20,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": "https://ngocto.github.io/colourlover/",
+  "homepage": "https://floating-lake-92329.herokuapp.com/",
   "browserslist": [
     ">0.2%",
     "not dead",
