@@ -31,3 +31,23 @@
     transform: rotate(360deg);
   }
 }
+.nav {
+  display: initial;
+  flex-wrap: none;
+}
+.nav-tabs {
+  border: none;
+}
+.nav-tabs > a {
+  display: inline-block;
+  border: none !important;
+  color: darkslategray;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.nav-tabs > a:hover {
+  color: saddlebrown;
+}
+.nav-link.active {
+  border: none;
+}

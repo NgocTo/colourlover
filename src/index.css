@@ -12,3 +12,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+a {
+  color: darkslategray;
+}
+a:hover {
+  color: saddlebrown;
+}
+h1 {
+  color: darkslategray;
+}
+h2 {
+  color: saddlebrown;
+}
+h3 {
+  text-transform: uppercase;
+}
+.hidden {
+  position: absolute;
+  left: -10000px;
+}
+
+.color {
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  padding-top: 2rem;
+  margin: 0.3rem;
+  cursor: pointer;
+  -moz-user-select: none; 
+  -webkit-user-select: none; 
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.item-container {
+  padding: 1.5rem 2%;
+  padding-bottom: 0.5rem;
+}
+.palette-collapse form {
+  margin-left: auto;
+  margin-right: auto;
+}
