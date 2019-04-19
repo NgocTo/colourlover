@@ -85,7 +85,7 @@ class Paragraph extends Component {
             <RB.Card className="offset-2 offset-md-0 col-8 col-md-4" style={{backgroundColor: "#" + background}}>
               <RB.Card.Body>
                 <RB.Card.Title className="font-weight-bold h4" style={{color: "#" + title}}>Test Palette</RB.Card.Title>
-                <RB.Card.Subtitle className="mb-2 text-secondary" style={{color: "#" + subtitle}}>An example Usage</RB.Card.Subtitle>
+                <RB.Card.Subtitle className="mb-2" style={{color: "#" + subtitle}}>An example Usage</RB.Card.Subtitle>
                 <RB.Card.Text style={{color: "#" + text}}>
                   Some quick example text to color the title, subtitle, content, link and background.
                 </RB.Card.Text>
