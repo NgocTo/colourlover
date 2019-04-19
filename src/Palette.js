@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Color from './Color';
 // import './App.css';
 
-const paletteUrl = 'https://warm-island-17721.herokuapp.com/palettes.php';
+const paletteUrl = 'https://api-ngoc.herokuapp.com/palettes.php';
 class Palette extends Component {
   constructor() {
     super();

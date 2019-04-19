@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import * as RB from 'react-bootstrap';
 
-const patternUrl = 'https://warm-island-17721.herokuapp.com/randomizePattern.php';
+const patternUrl = 'https://api-ngoc.herokuapp.com/randomizePattern.php';
 class RPattern extends Component {
   constructor() {
     super();

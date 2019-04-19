@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-const patternUrl = 'https://warm-island-17721.herokuapp.com/patterns.php';
+const patternUrl = 'https://api-ngoc.herokuapp.com/patterns.php';
 class Pattern extends Component {
   constructor() {
     super();
