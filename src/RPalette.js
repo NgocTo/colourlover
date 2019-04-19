@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Color from './Color';
 import * as RB from 'react-bootstrap';
 
-const paletteUrl = '//ngocto.com/api/randomizePalette.php';
+const paletteUrl = 'https://warm-island-17721.herokuapp.com/randomizePalette.php';
 class RPalette extends Component {
   constructor() {
     super();
