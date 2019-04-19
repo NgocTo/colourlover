@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Color from './Color';
 // import './App.css';
 
-const paletteUrl = '//www.colourlovers.com/api/palettes?format=json';
+const paletteUrl = '//ngocto.com/api/palettes.php';
 class Palette extends Component {
   constructor() {
     super();

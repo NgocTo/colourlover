@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-const patternUrl = '//www.colourlovers.com/api/patterns?format=json';
+const patternUrl = '//ngocto.com/api/patterns.php';
 class Pattern extends Component {
   constructor() {
     super();
