@@ -10,6 +10,8 @@
     "react-tooltip": "^3.10.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -18,6 +20,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "homepage": "https://ngocto.github.io/colourlover/",
   "browserslist": [
     ">0.2%",
     "not dead",
